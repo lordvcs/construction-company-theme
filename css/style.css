@@ -1,0 +1,256 @@
+/* *********************** */
+/* CUSTOM CARD GROUP */
+/* *********************** */
+.custom-card_container .card-deck {
+  margin-bottom: 70px;
+}
+
+.custom-card_container .card {
+  border: none;
+}
+
+.custom-card_container .card .card-body {
+  padding: 15px;
+}
+
+.custom-card_container .card .more-details_btn {
+  background: none;
+  border: 2px solid #1d2b57;
+  padding: 5px 18px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 3px;
+  color: #1d2b57;
+}
+
+.custom-card_container .card .card-text {
+  color: #636363;
+  font-size: 15px;
+}
+
+.custom-card_container .card .card-text:first-child {
+  margin-bottom: 5px;
+}
+
+.custom-card_container .card-title {
+  color: black;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.custom-card_container .card-title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  width: 45px;
+  background-color: black;
+}
+
+/* *********************** */
+/* SHORT CENTERED HEADER UNDERLINE */
+/* *********************** */
+.short_underline {
+  position: relative;
+}   
+
+.short_underline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 60px;
+  height: 4px;
+  background-color: #1e2b57;
+}  
+
+.section_header {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #1e2c57;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}  
+
+.section_sub-header {
+  color: #1e2c57;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  margin-bottom: 80px;
+}  
+
+.section_footer_btn button {
+  margin-top: -35px;
+  padding: 12px 45px;
+  border-radius: 0;
+  background-color: #f4b467;
+  font-weight: bold;
+}  
+
+/* *********************** */
+/* LEARN MORE */
+/* *********************** */
+
+.section_learn-more h2 {
+  position: relative;
+}  
+
+.section_learn-more h2:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 70px;
+  height: 4px;
+  background-color: #f4b467;
+}  
+
+/* *********************** */
+/* NAVBAR */
+/* *********************** */
+.navbar {
+  background-color: #1e2c57;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+  position: relative;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  right: 0;
+  width: 70%;
+  margin: 0 auto;
+  height: 4px;
+  background-color: #f4b467;
+}
+
+@media all and (max-width: 991px){
+  .navbar-light .navbar-nav .active > .nav-link:before {
+    bottom: 0;
+    width: 50px;
+    margin: initial;
+  }
+    
+}
+
+.header_working-hours > div,
+.header_call-us > div {
+  font-size: 12px;
+  text-align: left;
+  color: #4c4c4c;
+}
+
+.navbar_right-end-items button {
+  font-size: 14px;
+  padding: 3px 12px;
+  border-radius: 1px;
+  color: white;
+  font-weight: bold;
+  background-color: #f4b467;
+}
+
+/* *********************** */
+/* OUR SERVICES */
+/* *********************** */
+.section_our-services {
+  padding: 45px 0;
+}  
+/* 
+.section_our-services button {
+  margin-top: -35px;
+  padding: 12px 45px;
+  border-radius: 0;
+} */  
+
+.our-serices_box {
+  margin-bottom: 70px;
+}  
+
+.our-serices_box_img {
+  margin-right: 15px;
+}  
+
+.our-serices_box_header {
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-size: 18px;
+}  
+
+.our-serices_box_text {
+  font-size: 15px;
+}  
+
+/* *********************** */
+/* OUR SERVICES */
+/* *********************** */
+
+/* *********************** */
+/* INDUSTRIES SERVING */
+/* *********************** */
+.section_industries-serving {
+  padding: 25px 0;  
+}
+
+/* *********************** */
+/* NEWS AND EVENTS */
+/* *********************** */
+.section_news-events {
+  padding: 65px 0;
+}
+
+/* *********************** */
+/* FIRST BLACK FOOTER */
+/* *********************** */
+.section_first-footer {
+  padding: 125px 0;
+}
+
+.first-footer_addr {
+  color: white;
+}
+
+.first-footer_addr h6 {
+  font-size: 15px;
+}
+
+.first-footer_addr h4 {
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+
+.first-footer_addr h4:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 3px;
+  width: 60px;
+  background-color: #1e2c57;
+}
+
+.first-footer_addr p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
