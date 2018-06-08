@@ -95,30 +95,35 @@
 }  
 
 /* *********************** */
-/* LEARN MORE */
+/* HEADER */
 /* *********************** */
-
-.section_learn-more h2 {
-  position: relative;
-}  
-
-.section_learn-more h2:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 5px;
-  width: 70px;
-  height: 4px;
-  background-color: #f4b467;
-}  
-
-.section_learn-more .learn-more_man-container img {
-  margin-top: -60px;
+/* Header above navbar */
+.header_working-hours > div,
+.header_call-us > div {
+  font-size: 12px;
+  text-align: left;
+  color: #535353;
 }
 
-/* *********************** */
-/* NAVBAR */
-/* *********************** */
+.header_working-hours .working-hours_time,
+.header_call-us .call-us_phone {
+  font-size: 16px;
+}
+
+/* Navbar */
+.navbar_right-end-items i {
+  margin: 0 6px;
+}
+
+.navbar_right-end-items button {
+  font-size: 14px;
+  padding: 3px 12px;
+  border-radius: 1px;
+  color: white;
+  font-weight: bold;
+  background-color: #f4b467;
+}
+
 .navbar {
   background-color: #1e2c57;
   border-radius: 5px;
@@ -166,29 +171,25 @@
   color: #f4b467;
 }
 
-.header_working-hours > div,
-.header_call-us > div {
-  font-size: 12px;
-  text-align: left;
-  color: #535353;
-}
+/* *********************** */
+/* LEARN MORE */
+/* *********************** */
+.section_learn-more h2 {
+  position: relative;
+}  
 
-.header_working-hours .working-hours_time,
-.header_call-us .call-us_phone {
-  font-size: 16px;
-}
-
-.navbar_right-end-items i {
-  margin: 0 6px;
-}
-
-.navbar_right-end-items button {
-  font-size: 14px;
-  padding: 3px 12px;
-  border-radius: 1px;
-  color: white;
-  font-weight: bold;
+.section_learn-more h2:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 70px;
+  height: 4px;
   background-color: #f4b467;
+}  
+
+.section_learn-more .learn-more_man-container img {
+  margin-top: -60px;
 }
 
 /* *********************** */
@@ -197,12 +198,6 @@
 .section_our-services {
   padding: 45px 0;
 }  
-/* 
-.section_our-services button {
-  margin-top: -35px;
-  padding: 12px 45px;
-  border-radius: 0;
-} */  
 
 .our-serices_box {
   margin-bottom: 70px;
@@ -346,6 +341,9 @@
   margin-bottom: 3px;
 }
 
+/* *********************** */
+/* FOOTER */
+/* *********************** */
 footer .container {
   border-top: 4px solid black;
   padding-top: 25px;
