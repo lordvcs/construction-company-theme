@@ -14,7 +14,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <header class="bg-light" style="min-height:700px">
+    <header class="bg-light">
       <div class="container">
         <div class="row top_header py-3 align-items-center justify-content-center justify-content-lg-start">
           <div class="col-auto p-0">
@@ -95,6 +95,19 @@
               </div>
             </div>
           </nav>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row header-slider_container">
+          <div class="col header-slider_slide align-items-center">
+            <h1 >
+                Muscat Supply Company
+            </h1>
+            <h3 >
+                For Industrial &amp; Electrical Parts LLC
+            </h3 >
+            <button type="button" class="btn btn-warning header-slider_btn_center">LEARN MORE</button>
+          </div>
         </div>
       </div>
     </header>
@@ -448,6 +461,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <script>
+      $('.header-slider_container').slick();
+      
       $('.section-slider').slick({
         infinite: true,
         slidesToShow: 4,
