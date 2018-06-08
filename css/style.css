@@ -112,8 +112,8 @@
   background-color: #f4b467;
 }  
 
-.learn-more .learn-more_man-container img {
-  
+.section_learn-more .learn-more_man-container img {
+  margin-top: -60px;
 }
 
 /* *********************** */
