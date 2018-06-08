@@ -131,6 +131,10 @@
   padding-right: 2.5rem;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f4b467;
+}
+
 .navbar-light .navbar-nav .active > .nav-link {
   color: white;
   position: relative;
@@ -155,6 +159,11 @@
     margin: initial;
   }
     
+}
+
+/* Menu toggler icon */
+.navbar-light .navbar-toggler {
+  color: #f4b467;
 }
 
 .header_working-hours > div,
@@ -339,7 +348,8 @@
 
 footer .container {
   border-top: 4px solid black;
-  padding: 25px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
   font-size: 15px;
   color: #2d2d2d;
 }
