@@ -115,6 +115,15 @@
   margin: 0 6px;
 }
 
+.navbar_right-end-items a {
+  color: white;
+}
+
+.navbar_right-end-items a:hover {
+  color: #f4b467;
+  text-decoration: none;
+}
+
 .navbar_right-end-items button {
   font-size: 14px;
   padding: 3px 12px;
